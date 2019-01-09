@@ -3,7 +3,7 @@
 <script type="text/javascript" src="../../blocks/company/MP3Player.js"></script>
 <script type="text/javascript" src="../../generators/arduino/company/MP3Player.js"></script>
 
-<category id="MP3Player" name="MP3模块"colour="#996699">
+<category id="MP3Player" name="MP3模块"colour="27b6ac">
 		<block type="mp3_Setup">
 		<value name="TX">
           <shadow type="pins_digital"></shadow>
