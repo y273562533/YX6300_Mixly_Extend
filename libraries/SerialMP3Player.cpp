@@ -60,10 +60,11 @@ void SerialMP3Player::setVol(byte v){
    sendCommand(CMD_SET_VOL, v);
 }
 
-/*void SerialMP3Player::playPF(byte n){
+
+void SerialMP3Player::playPF(byte f,byte n){
    
-   sendCommand(CMD_PLAY_FILE, n);
-}*/
+   sendCommand(CMD_PLAY_FILE, f, n);
+}
 
 void SerialMP3Player::playPL(){
    

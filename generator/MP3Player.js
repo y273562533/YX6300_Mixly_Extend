@@ -35,11 +35,12 @@ Blockly.Arduino.mp3_control2 = function () {
     var code = 'mp3.play('+file+');\n'
     return code;
     };
-/*Blockly.Arduino.mp3_PalyByName = function () {
-    var songName = Blockly.Arduino.valueToCode(this, 'songName', Blockly.Arduino.ORDER_ATOMIC);
-    var code = 'mp3.playPF(01,'+songName+');\n'
+Blockly.Arduino.mp3_PalyByName = function () {
+    var FolderName = Blockly.Arduino.valueToCode(this, 'FolderName', Blockly.Arduino.ORDER_ATOMIC);
+    var SongName = Blockly.Arduino.valueToCode(this, 'SongName', Blockly.Arduino.ORDER_ATOMIC);
+    var code = 'mp3.playPF('+FolderName+','+SongName+');\n'
     return code;
-    };*/
+    };
 
 
 

@@ -20,7 +20,7 @@
 #define CMD_PLAY_SLOOP       0X08 // Single loop play.
 #define CMD_PLAY_FILE        0X0F
 #define CMD_PLAY_RAN         0X18
-#define CMD_PLAY_PLOOP	    0X19 //The current track repeats. 
+#define CMD_PLAY_PLOOP	     0X19 //The current track repeats. 
 #define CMD_SEL_DEV          0X09 // Set device. 2 DEV_TF (SD Card)
 #define CMD_SLEEP_MODE       0X0A
 #define CMD_WAKE_UP          0X0B
@@ -75,7 +75,7 @@ class SerialMP3Player{
      void volDown();          // Volumen Down
      void setVol(byte v);     // Set Volumen (0-30)
      
-     //void playPF(byte n);
+     void playPF(byte f,byte n);
      
      void playPL();
      void playSL(byte n);         // Play Single loop  n file.

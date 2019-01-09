@@ -28,13 +28,18 @@
             </shadow>
           </value> 
 	  </block>
-	  <!--<block type="mp3_PalyByName">
-	  	<value name="songName">
-			   <shadow type="text">
-			     <field name="TEXT">name.mp3</field>
-			   </shadow>
-			</value>
-	  </block>-->
+	  <block type="mp3_PalyByName">
+	  	<value name="FolderName">
+			   <shadow type="math_number">
+              <field name="NUM">01</field>
+            </shadow>
+          </value>
+        <value name="SongName">
+			   <shadow type="math_number">
+              <field name="NUM">001</field>
+            </shadow>
+          </value>
+	  </block>
   </category>
 	
 	
