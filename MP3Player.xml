@@ -1,0 +1,41 @@
+<!-- type="company" block="block/MP3Player.js" generator="generator/MP3Player.js" -->
+
+<script type="text/javascript" src="../../blocks/company/MP3Player.js"></script>
+<script type="text/javascript" src="../../generators/arduino/company/MP3Player.js"></script>
+
+<category id="MP3Player" name="MP3模块"colour="#996699">
+		<block type="mp3_Setup">
+		<value name="TX">
+          <shadow type="pins_digital"></shadow>
+        </value>
+		<value name="RX">
+          <shadow type="pins_digital"></shadow>
+        </value>
+	  </block>
+	  <block type="mp3_begin">
+		<value name="Vol">
+          <shadow type="math_number">
+          	<field name="NUM">30</field>
+          </shadow>
+        </value>
+	  </block>
+	  <block type="mp3_control">
+	  </block>
+	  <block type="mp3_control2">
+	  	<value name="file">
+            <shadow type="math_number">
+              <field name="NUM">1</field>
+            </shadow>
+          </value> 
+	  </block>
+	  <!--<block type="mp3_PalyByName">
+	  	<value name="songName">
+			   <shadow type="text">
+			     <field name="TEXT">name.mp3</field>
+			   </shadow>
+			</value>
+	  </block>-->
+  </category>
+	
+	
+
