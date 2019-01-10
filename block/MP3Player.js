@@ -81,15 +81,19 @@ Blockly.Blocks.mp3_control2 = {
   }
 };
 
-/*Blockly.Blocks.mp3_PalyByName = {
+Blockly.Blocks.mp3_PalyByName = {
   init: function() {
    this.setColour(colorSet);
-   this.appendValueInput('songName')
-       .setCheck(String)
-       .setAlign(Blockly.ALIGN_RIGHT)
-       .appendField("播放mp3文件名");
+   this.appendValueInput('FolderName')
+        .setCheck(Number)
+        .setAlign(Blockly.ALIGN_RIGHT)
+       .appendField("播放文件夹");
+   this.appendValueInput('SongName')
+        .setCheck(Number)
+        .setAlign(Blockly.ALIGN_RIGHT)
+       .appendField("文件名");
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
   this.setInputsInline(true);
   }
-};*/
+};
